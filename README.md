@@ -22,7 +22,7 @@ orm.setTransport(require('m17n-orm/transports/ajax'));
 
 ## Transport Methods
 
-Transports must export at least the following set of methods.
+Transports must export at least the following set of methods. All asynchronous methods return an instance of `Deferred` created by [tiny-deferred](https://github.com/mattcg/tiny-deferred).
 
 ### get(constructor, id, [language])
 
