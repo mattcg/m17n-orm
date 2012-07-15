@@ -1,0 +1,18 @@
+{
+	"name": "m17n-orm",
+	"version": "1.0.0",
+	"author": "Matthew Caruana Galizia <m@m.cg> (http://m.cg/)",
+	"description": "Multilingual ORM for restful public interfaces.",
+	"keywords": ["m17n, multilingualization", "multilingualisation", "orm", "rest", "restful"],
+	"main": "orm.js",
+	"dependencies": {
+		"tiny-deferred": "~1",
+		"responsive-ajax": "~1",
+		"mysql": "~1",
+		"mysql-queues": "<1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mattcg/m17n-orm.git"
+	}
+}
